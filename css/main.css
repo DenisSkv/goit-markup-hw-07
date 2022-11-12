@@ -168,6 +168,9 @@ body {
 .site-nav-item:not(.site-nav-item:last-child) {
   margin-right: 50px;
 }
+.site-nav-link:not(.site-nav-link:last-child) {
+  margin-right: 30px;
+}
 
 .header-container {
   display: flex;
@@ -238,7 +241,6 @@ body {
 }
 
 .address-item {
-  margin-right: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -248,9 +250,6 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
-}
-.address-item:last-child {
-  margin-right: 30px;
 }
 .address-item:hover, .address-item:focus {
   color: var(--accent-color);

@@ -4,6 +4,9 @@
     &-item:not(.site-nav-item:last-child) {
         margin-right: 50px;
     }
+    &-link:not(.site-nav-link:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .header-container {
@@ -78,8 +81,6 @@
 }
 
 .address-item {
-    margin-right: 50px;
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -90,15 +91,13 @@
 
     display: flex;
     align-items: center;
-    &:last-child {
-        margin-right: 30px;
-    }
-
     &:hover,
     &:focus {
         color: var(--accent-color);
     }
     
 }
+
+
 
 
